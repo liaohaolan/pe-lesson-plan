@@ -1,0 +1,21 @@
+{
+  "name": "@local/pe-lesson-plan",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "体育教案：按原稿整理课程内容，一键生成 A4 排版的 Word 教案。",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale/*.json", "icon.svg"],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
