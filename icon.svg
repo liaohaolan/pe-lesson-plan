@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="体育教案">
+  <defs>
+    <linearGradient id="peBg" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c9a63"/>
+      <stop offset="1" stop-color="#0d6b45"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="url(#peBg)"/>
+  <path d="M20 12h16l9 9v31H20z" fill="#ffffff" opacity="0.96"/>
+  <path d="M36 12v9.5h9" fill="none" stroke="#0d6b45" stroke-width="2" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M25 27h14M25 32h9" stroke="#0d6b45" stroke-width="2.4" stroke-linecap="round" opacity="0.5"/>
+  <path d="M24.5 45c3.2-6.4 11.6-7.2 15.6-1.2" fill="none" stroke="#ffd166" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="41" cy="43.5" r="3.1" fill="#ffd166"/>
+</svg>
