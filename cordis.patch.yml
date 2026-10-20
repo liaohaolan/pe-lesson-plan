@@ -1,0 +1,3 @@
+- insert:
+    - id: pe-lesson-plan
+      name: '@local/pe-lesson-plan'
